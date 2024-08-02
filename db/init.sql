@@ -24,3 +24,12 @@ CREATE TABLE accounts(
   amount DECIMAL,
   status BOOLEAN
 );
+
+INSERT INTO accounts (account_id,customer_id,opening_date,account_type,amount,status)
+VALUES
+  (1,2000,"2000-12-15","saving",20000,1),
+  (2,2001,"2001-12-15","checking",5000,1),
+  (3,2002,"2002-12-15","saving",8000,1),
+  (4,2003,"2000-12-15","checking",7500,1),
+  (5,2004,"2001-12-15","saving",40250,1),
+  (6,2005,"2002-12-15","checking",15000,1);
